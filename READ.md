@@ -173,7 +173,7 @@ ECOMMERCE-APP/
 ---
 
 ### 📄 Professional Billing
-![Invoice PDF](screenshots/invoice_bill.pdf)
+![Invoice PDF](screenshots/invoice_bill.png)
 * **Description:** Automatically generates a formal MSD Appliances Invoice (e.g., #MSD-58). The document includes customer contact details, the delivery address, total amount paid, and the signature of the Authorized Signatory: JABIR.
 
 
