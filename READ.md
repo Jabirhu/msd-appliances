@@ -167,8 +167,8 @@ ECOMMERCE-APP/
 ![Mark Delivered](screenshots/mark_delivered.png)
 * **Description:** The admin orders tab allows the manager to track fulfillment status and mark items as "Delivered" once the customer has received their appliance.
 
-![Success Message](screenshots/successfully_msg.png)
-* **Description:** A final confirmation showing that the transaction and delivery cycle has been completed successfully.
+![Success Message](screenshots/inventory_added_successfully.png)
+* **Description:** A final confirmation of inventory added successfully.
 
 ---
 
