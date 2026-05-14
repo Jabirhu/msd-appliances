@@ -5,57 +5,98 @@ A professional Full-Stack E-Commerce application designed for appliance manageme
 ## 🚀 Project Overview
 This system allows for product management, user authentication, and order processing. It is built to be lightweight, scalable, and easy to deploy.
 
-- **Frontend:** React.js, Vite, Tailwind CSS
-- **Backend:** Java, Spring Boot, Spring Data JPA
-- **Database:** MySQL
-- **Images:** Local storage / Cloudinary Integration
-
----
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
 
 ## 🛠️ Step-by-Step Implementation Guide
 
 Follow these steps to get the project running on your local machine.
 
-### 1. Prerequisites
-Ensure you have the following installed:
-* **Java 17** or higher
-* **Node.js** (v18 or higher)
-* **MySQL Server**
-* **Maven** (optional, wrapper included)
+------------------------------------------------------------------------------
+### 1. Tech Stack & Versions
+------------------------------------------------------------------------------
 
+| Technology      | Version   | Purpose                        |
+| :-------------- | :-------- | :----------------------------- |
+| **Java** | 17 LTS    | Backend Logic                  |
+| **Spring Boot** | 3.x.x     | Application Framework          |
+| **Node.js** | 18+       | Frontend Environment           |
+| **React** | 18.x      | User Interface (Vite)          |
+| **MySQL** | 8.0       | Relational Database            |
+| **Cloudinary** | Latest    | Image Hosting & Optimization  |
+| **Maven** | 3.9+      | Dependency Management          |
+
+------------------------------------------------------------------------------
 ### 2. Database Setup
-1.  Open your MySQL terminal or Workbench.
-2.  Create a new database:
+------------------------------------------------------------------------------
+
+* Open your MySQL terminal or Workbench.
+* Create a new database:
     ```sql
     CREATE DATABASE ecommerce_db;
     ```
-3.  Update the backend configuration:
-    * Navigate to `backend/src/main/resources/application.properties`
-    * Update `spring.datasource.username` and `password` to match your local MySQL credentials.
+* Update the backend configuration:
+    1. Navigate to `backend/src/main/resources/application.properties`
+    2. Set the credentials:
+       ```properties
+       spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce_db
+       spring.datasource.username=root
+       spring.datasource.password=Your_MySQL_Password_Here
+       spring.jpa.hibernate.ddl-auto=update
+       spring.jpa.show-sql=true
+       ```
 
-### 3. Running the Backend (Spring Boot)
-1.  Open a terminal in the `backend` folder.
-2.  Run the application:
-    ```bash
-    ./mvnw spring-boot:run
+------------------------------------------------------------------------------
+### 3. ☁️ Cloudinary Setup (For Product Images)
+------------------------------------------------------------------------------
+
+To handle images like the iPhone 17 Pro Max or Samsung S26 via the cloud:
+
+* Create a free account at Cloudinary.com.
+* Go to your Dashboard and find your credentials.
+* Update `backend/src/main/resources/application.properties`:
+    ```properties
+    cloudinary.cloud_name=your_cloud_name
+    cloudinary.api_key=your_api_key
+    cloudinary.api_secret=your_api_secret
     ```
-3.  The server will start at: `http://localhost:8080`
 
-### 4. Running the Frontend (React)
-1.  Open a **new** terminal in the `frontend` folder.
-2.  Install the required packages:
+------------------------------------------------------------------------------
+### 4. Running the Backend (Spring Boot)
+------------------------------------------------------------------------------
+
+1. Open Git Bash in the `backend` folder.
+2. Run the command:
+    ```bash
+    ./mvnw clean spring-boot:run
+    ```
+
+* **Server URL:** http://localhost:8080
+* **Default Admin:** admin@msd.com / admin123 (Initialized via DataLoader.java)
+
+------------------------------------------------------------------------------
+### 5. Running the Frontend (React)
+------------------------------------------------------------------------------
+
+1. Open a new Git Bash terminal in the `frontend` folder.
+2. Install the required packages:
     ```bash
     npm install
     ```
-3.  Start the development server:
+3. Start the development server:
     ```bash
     npm run dev
     ```
-4.  The website will be live at: `http://localhost:5173`
 
----
+* **Website URL:** http://localhost:5173
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
 
 ## 📂 Project Structure
+
 ```text
 ECOMMERCE-APP/
 ├── backend/           # Spring Boot Application
@@ -65,3 +106,9 @@ ECOMMERCE-APP/
 │   ├── src/           # React Components & Pages
 │   └── package.json   # Node Dependencies
 └── .gitignore         # Master Ignore File
+```
+
+👤 Author
+JABIR - Authorized Signatory - MSD Appliances
+GitHub: @Jabirhu
+Ph: +91 8310426460
