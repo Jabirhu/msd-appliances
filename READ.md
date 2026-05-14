@@ -108,6 +108,39 @@ ECOMMERCE-APP/
 └── .gitignore         # Master Ignore File
 ```
 
+
+
+## 🖼️ Project Gallery
+
+### 🛡️ Secure Admin Portal
+![Admin Login](screenshots/admin_login.png)
+
+### 📦 Inventory Control Center
+![Admin Panel](screenshots/admin_panel.png)
+
+### ➕ Stock Entry Management
+![Adding Inventory](screenshots/adding_inventory.png)
+
+### 🛒 Customer Storefront
+![Product Card](screenshots/card_add_checkout.png)
+
+### 🛍️ Checkout & Basket
+![Customer Details](screenshots/customer_details_in_basket.png)
+
+### 🧾 Professional Generated Invoice
+![Invoice Bill](screenshots/invoice_bill.png)
+
+
+
+
+
+
+
+
+
+
+
+
 👤 Author
 JABIR - Authorized Signatory - MSD Appliances
 GitHub: @Jabirhu
