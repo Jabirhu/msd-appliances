@@ -112,23 +112,69 @@ ECOMMERCE-APP/
 
 ## 🖼️ Project Gallery
 
-### 🛡️ Secure Admin Portal
+### 🛡️ Admin Security & Entry
 ![Admin Login](screenshots/admin_login.png)
+* **Description:** Access to the MSD Appliances management suite is protected by a secure login portal. This ensures that only authorized administrators can modify inventory or view customer order history.
 
-### 📦 Inventory Control Center
+---
+
+### 📦 Inventory & Stock Management
 ![Admin Panel](screenshots/admin_panel.png)
+* **Description:** The central dashboard for the Vijayapura Control Center. It displays a real-time list of all appliances currently in stock, including brand details and pricing (e.g., Haier 355L Refrigerator at ₹48,590).
 
-### ➕ Stock Entry Management
+![Inventory Panel](screenshots/inventory_adding_panel.png)
+* **Description:** A dedicated interface for managing stock entries. This view allows for quick navigation between current inventory and incoming orders.
+
+![Stock Levels](screenshots/product_with_stock_level.png)
+* **Description:** Displays precise stock counts for every item, such as 15 units for washing machines or 29 units for front-load models, helping maintain optimal supply.
+
+---
+
+### ➕ Adding New Products
 ![Adding Inventory](screenshots/adding_inventory.png)
+* **Description:** The "New Stock Entry" form allows admins to add products to the shop. It includes fields for Product Name, Brand, Price, and a Cloudinary-integrated file picker for product images.
 
-### 🛒 Customer Storefront
-![Product Card](screenshots/card_add_checkout.png)
+![Inventory List](screenshots/added_inventory_to_list.png)
+* **Description:** Once a product like the Samsung TV (2025 model) is added, it immediately appears in the master inventory list with options to Edit or Delete the entry.
 
-### 🛍️ Checkout & Basket
-![Customer Details](screenshots/customer_details_in_basket.png)
+---
 
-### 🧾 Professional Generated Invoice
-![Invoice Bill](screenshots/invoice_bill.png)
+### 🛒 Customer Experience
+![Storefront](screenshots/store.png)
+* **Description:** The main landing page for customers, showcasing all available appliances in a clean, responsive grid layout.
+
+![Product Details](screenshots/card_add_checkout..png)
+* **Description:** A detailed product card view featuring high-resolution images and clear pricing. Customers can adjust quantities and proceed directly to checkout from this component.
+
+---
+
+### 🛍️ Basket & Delivery Details
+![Basket](screenshots/basket..png)
+* **Description:** The "Your Basket" page displays selected items and calculates the total payable amount in real-time.
+
+![Customer Info](screenshots/customer_details_in_basket.png)
+* **Description:** To ensure accurate delivery, this form captures the customer's full name, mobile number, and specific delivery address (e.g., JM Road Hakeem Chowk).
+
+---
+
+### 🧾 Order Fulfillment
+![Order Placed](screenshots/order_placed..png)
+* **Description:** A confirmation screen indicating the order has been successfully transmitted to the MSD Appliances database.
+
+![Order Notification](screenshots/notification.png)
+* **Description:** Real-time system notifications alert the admin when a new customer has completed a purchase.
+
+![Mark Delivered](screenshots/mark_delivered.png)
+* **Description:** The admin orders tab allows the manager to track fulfillment status and mark items as "Delivered" once the customer has received their appliance.
+
+![Success Message](screenshots/successfully_msg.png)
+* **Description:** A final confirmation showing that the transaction and delivery cycle has been completed successfully.
+
+---
+
+### 📄 Professional Billing
+![Invoice PDF](screenshots/invoice_bill.pdf)
+* **Description:** Automatically generates a formal MSD Appliances Invoice (e.g., #MSD-58). The document includes customer contact details, the delivery address, total amount paid, and the signature of the Authorized Signatory: JABIR.
 
 
 
